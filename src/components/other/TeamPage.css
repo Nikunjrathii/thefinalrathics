@@ -1,0 +1,83 @@
+.con-team-built-wr {
+    padding: 40px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    width: 80vw;
+    margin-top: 6vh;
+    margin-left: 8vw;
+    margin-bottom: 4vh;
+  }
+  
+  .center-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .con-team-built-head {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .con-team-built-head h3 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .con-team-built-head span {
+    display: block;
+  }
+  
+  .team-icon-title-wr {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .con-icon-title-blk {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+ 
+ 
+  }
+  
+  .con-icon-blk {
+    font-size: 48px;
+    color: #333;
+  }
+ 
+  
+  .con-title-blk {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .con-title-blk h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 8px;
+  }
+  
+  .con-icon-title-blk:nth-child(9),
+  .con-icon-title-blk:nth-child(10) {
+    grid-column: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .con-icon-title-blk:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+  .con-title-blk h4:hover{
+    cursor: pointer;
+  }

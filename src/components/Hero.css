@@ -1,0 +1,38 @@
+.outer{
+
+    height: 87vh;
+  width: 100vw;
+    
+}
+.hero-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  width: 97.3vw;
+    
+  }
+  .caption{
+    position: absolute;
+    top: 30vh;
+    
+  }
+  
+  .caption1 {
+    position:absolute;
+    top: 30vh;
+   
+  }
+  
+  .caption1 h3 {
+    margin-bottom: 10px;
+  }
+  
+  .caption1 p {
+    margin-bottom: 0;
+  }
+  .caption1-text {
+    background-color: rgba(69, 0, 0, 0.1);
+    color: #fff;
+    padding: 20px;
+  }
+  

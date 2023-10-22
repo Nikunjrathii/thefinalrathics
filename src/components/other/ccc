@@ -1,0 +1,37 @@
+@media (min-width: 768px) {
+    .team-members {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .member {
+    text-align: center;
+    
+  }
+  
+  .member img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .member h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .member p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  .team-members{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    max-height: 100%;
+    overflow: hidden;
+  }

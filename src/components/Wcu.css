@@ -1,0 +1,82 @@
+.why-choose-container {
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgba(255, 196, 206, 0.15);
+    width: 98.7vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .why-choose-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .reasons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  .reason {
+    flex: 0 0 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff0f0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(255, 174, 174, 0.1);
+  }
+  
+  .reason-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .reason-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .reason-description {
+    font-size: 14px;
+    color: #303030;
+  }
+  
+  .portfolio-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff8059;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .portfolio-button:hover {
+    background-color: #e64a19;
+  }
+  
+  @media (max-width: 768px) {
+    .reason {
+      flex: 0 0 100%;
+      margin: 10px 0;
+    }
+    
+  }
+  
+  @media (max-width: 480px) {
+    .why-choose-heading {
+      font-size: 20px;
+     
+    }
+  }
+  
